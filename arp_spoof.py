@@ -37,7 +37,7 @@ try:
         packet_count += 2
         time.sleep(2)
 except KeyboardInterrupt:
-    print("\n[-] Detected ctrl + c ......... resseting plz wait ...")
+    print("\n[-] Detected ctrl + c ......... ressetting plz wait ...")
     restore(target_ip,gateway_ip)
     restore(gateway_ip,target_ip)
 
