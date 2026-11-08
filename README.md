@@ -18,6 +18,8 @@ This script leverages the Address Resolution Protocol (ARP) to manipulate the AR
 * **OS:** Kali Linux (or any Linux distribution with network tool support)
 * **Python:** Python 3.x
 * **Library:** Scapy
+* **Library:** time
+* **Library:** sys
 
 Install dependencies via pip:
 ```bash
